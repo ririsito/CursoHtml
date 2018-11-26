@@ -1,0 +1,31 @@
+body{
+  font-family: Arial;
+}
+
+
+table,th,td {
+  border: 1px solid rgba(0,0,0,.2);
+}
+
+table {
+  border-collapse: collapse; /*unifica bordes de celda*/
+}
+
+table {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+th ,td {
+  padding: 10px 20px;
+}
+
+th{
+  background: #009ddc;
+  color: #fff;
+}
+
+tr:hover{
+  background: #5e5e5e; /*para cuando pasas el mouse arriba de una fila*/
+}

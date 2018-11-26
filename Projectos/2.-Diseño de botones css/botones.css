@@ -1,0 +1,46 @@
+body{
+  background: #f2f2f2;
+  font-family: Arial;
+}
+
+
+div{
+  margin: 20px 0px;
+}
+
+.btn{
+ background: #c5e6a6;
+ text-decoration: none;
+ padding: 15px 20px;
+ display: inline-block;
+ margin: 0 10px;
+ font-size: 16px;
+ margin: 5px;
+ border-radius: 5px;
+}
+
+.btn:hover{
+  opacity: .8;
+}
+
+.small{
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.big{
+  font-size: 18;
+  padding: 15px 20px;
+}
+
+.extrabig{
+  font-size: 20px;
+  padding: 20px 25px;
+}
+.verde{
+  background: #bdd2a6;
+}
+.oscuro{
+  background: #bdd2a6;
+}
+.gris{background: #9899a6;}

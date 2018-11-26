@@ -1,0 +1,37 @@
+/*ul , ol {
+  list-style: none;
+  padding: 0;
+}*/
+
+body{
+  font-family: Arial;
+}
+
+ul{
+  list-style-image: url('success.png'); /*Cambia la viñeta que va al inicio */
+}
+
+ol{
+  list-style:upper-latin;
+}
+
+.menu{
+  list-style-image: url('success.png');
+  background: #4357ad;
+  width: 200px;
+}
+
+.menu li{
+  border-bottom: 1px solid rgba(255, 255, 0, 0.3);
+}
+
+.menu li a{
+  display: block; /*fijate en esto para que se vea bien*/
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu li a:hover{
+  background: #4888d6;
+}

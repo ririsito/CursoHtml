@@ -1,0 +1,63 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+
+    /*box sinzing para acomodar tramaño respetando tamaños*/
+    background: #f2f2f2;
+}
+
+.formulario{
+  background: #fff;
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px; /*Espacio entre elementos y el margen del form*/
+  border-radius: 5px;
+  }
+
+.formulario input{
+  display: block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 1px solid #26cfc1;
+  font-size: 16px;
+}
+
+.formulario textarea{
+  min-height: 120px;
+  max-height: 300px;
+
+  /*Solo se puede hacer mas alto pero no mas ancho*/
+  max-width: 100%;
+  min-width: 100%;
+}
+
+
+.formulario input[type=submit]{
+  width: 200px;
+  margin: 0px auto;
+  background: none;
+  border: 1px solid #4fb560;
+  color: #4fb560;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.formulario input[type=submit]:hover{
+  background:  #4fb560;
+  color: white;
+}

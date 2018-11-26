@@ -1,0 +1,33 @@
+*{
+  /*margin: 0px;
+  padding: 0px;*/
+}
+
+@keyframes movimiento {
+  0%{transform: translate(0px);}
+  50%{transform: translate(250px);}
+  0%{transform: translate(0px);}
+}
+
+@keyframes colores {
+/*  from{background:  #228CDB;}
+  to {background: #0B7189;}
+*/
+0% {background:#228CDB ;}
+25% {background: #0B7189;width: 300px;}
+50% {background: #170A1C; width: 350px;}
+75% {background: #C19AB7;width: 300px;}
+100% {background: #9C95DC;width: 200px;}
+
+}
+
+.caja{
+  width: 200px;
+  height: 200px;
+  background: #228CDB;
+  /*animation-name: colores;*/
+  animation-name: movimiento;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}

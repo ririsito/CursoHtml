@@ -1,0 +1,18 @@
+body
+{
+  background: url('img/1.jpg');
+  /*avarcara el ancho de nuestra pagina */
+  background-size:cover;
+
+  /*Para scrolear y que se mueva el scrol*/
+  background-attachment : scroll;
+
+  /*fixed para que baje con scrol*/
+}
+
+
+.fondo{
+  width: 600px ;
+  height: 600px;
+  background: white;
+}

@@ -1,0 +1,17 @@
+body{
+  background: #f2f2f2;
+  font-family: Arial;
+}
+
+h1,p,div{
+  background: #ccc;
+  display: inline-inline-block;
+  padding: 10px;
+}
+
+a{
+  color: #fff;
+  background: #000;
+  display: inline-block;
+  padding: 20px;
+}
